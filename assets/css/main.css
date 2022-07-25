@@ -2700,7 +2700,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #FFFFBB;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2712,11 +2712,11 @@ input, select, textarea {
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #000000;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #000000;
 			}
 
 		#header header p {
@@ -2728,7 +2728,7 @@ input, select, textarea {
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #FFBB00 !important;
 			}
 
 		#header > header {
@@ -2800,7 +2800,7 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #000000 !important; /*選單字色*/
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
@@ -3076,7 +3076,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #FFAA33;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
